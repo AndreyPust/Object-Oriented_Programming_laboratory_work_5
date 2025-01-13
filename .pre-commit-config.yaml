@@ -31,8 +31,8 @@ repos:
     # mypy
     - id: mypy
       name: mypy
-      entry: mypy
+      entry: mypy src/
       language: system
       types_or: [ python, pyi ]
       require_serial: true
-      pass_filenames: true
+      pass_filenames: false
